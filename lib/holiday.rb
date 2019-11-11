@@ -72,9 +72,9 @@ def all_winter_holiday_supplies(holiday_hash)
       day.each do |name, data|
           winter_supplies << data
           winter_supplies.flatten
-          binding.pry
       end
     end
+    winter_supplies
   end
 end
 
