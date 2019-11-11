@@ -21,7 +21,6 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_hash.each do |season, holiday|
     if holiday == :fourth_of_july
       p "hello world"
-        
     end
   end
 end
@@ -65,7 +64,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-
+  
 end
 
 
