@@ -67,14 +67,14 @@ end
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
   holiday_hash.each do |season, day|
-    winter_spplies = []
+    winter_supplies = []
     if season == :winter
       day.each do |name, data|
           winter_spplies << data
       end
     end
+    winter_supplies
   end
-  winter_spplies
 end
 
 def all_supplies_in_holidays(holiday_hash)
