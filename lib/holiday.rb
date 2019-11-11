@@ -4,7 +4,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_hash.collect do |season, day|
     day.collect do |name, data|
       if name == :fourth_of_july
-        return data[0]
+        return data[2]
       end
     end
   end
